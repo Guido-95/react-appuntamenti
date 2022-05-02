@@ -1,0 +1,46 @@
+.person{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 550px;
+    border: 1px solid lightblue;
+    color: #caf0f8;
+    background-color: #222;
+}
+.img-person{
+    width: 70px;
+    height: 55px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px 30px 10px 10px;
+    background-color: yellow;
+    
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h4{
+    margin: 0;
+}
+p{
+    margin: 5px 0px;
+}
+.remove-button{
+    border-radius: 50%;
+    width: 30px;
+    height: 25px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+
+}

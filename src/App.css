@@ -1,0 +1,59 @@
+body{
+  background-color: rgb(91, 102, 250);
+}
+h1{
+  text-align: center;
+}
+
+.persons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 1000px;
+  
+ 
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto 0 auto;
+  width: 1000px;
+  
+  
+}
+
+.button-reload{
+  display: flex;
+  align-items: center;
+  opacity: 0.8;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 1px solid rgb(62, 62, 100);
+  color: white;
+  background: rgb(62, 62, 100);
+ 
+}
+.button-remove{
+  display: flex;
+  align-items: center; 
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 1px solid red;
+  color: red;
+}
+.button-reload:hover {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+.button-remove:hover {
+  transition: 0.2s;
+  color: white;
+  background-color: red;
+}
